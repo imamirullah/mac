@@ -1,0 +1,190 @@
+.onlyforbgtest1 {
+    background-image: linear-gradient(to  bottom, #866A9C, #866A9C, #444678);
+    height: 97vh;
+    width: 100vw;
+    padding-top: 3vh;
+}
+.pofeverymain{
+    width: 44vw;
+    height: 56vh;
+    /* box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 10px;
+    margin-left: 3vw;
+    box-shadow:  3px 0 0px -2px rgba(0, 0, 0, 0.2); 
+    margin-top: 4vh;
+}
+
+.pofeverymain1{
+    width: 44vw;
+    height: 62vh;
+    border-radius: 10px;
+    margin-left: 3vw;
+    margin-top: 5vh;
+}
+
+
+.stars{
+    height: 22vh;
+    margin-top: -4vh;
+    margin-left: -7vw;
+}
+.mainpdiv{
+    display: flex;
+}
+.semicircle{
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 99px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background: linear-gradient(to right,white 10% , yellow 13.33%, red 33.33%, red 20.66%, blue 66.66%, purple 36.66%);
+    margin-top: 25vh;
+    margin-left: 23vw;
+    
+}
+
+.semicircleAGAIN{
+    transform: translate(-50%, -50%);
+    height: 84px;
+    width: 174px;
+    border-radius: 150px 150px 0 0;
+    background-image: linear-gradient(to right ,   #3e0766, #500c78, #63108a, #9e13ae, #b610b5);
+    margin-top: -91px;
+    margin-left: 23vw;
+
+}
+.thisispmeanpara{
+    font-size: 11px;
+    margin-left: 5vw;
+    margin-top: -4vh;
+    font-weight: 600;
+}
+.pofcircle{
+    margin-left: 8vw;
+    margin-top: -3vh;
+    padding-top: 2vh;
+    margin-bottom: 0px !important; 
+
+}
+.spanofcircle{
+    margin-left: 5vw;
+    margin-top: -37px;
+   margin-bottom: 0px !important; 
+   
+}
+.child11 {
+    width: 100vw;
+    height: 12vh;
+    margin: left 3vw;
+    /* background-image: linear-gradient(to right bottom, #761296, #8a13a2, #9e13ae, #ce0bbc, #e705c1); */
+    /* background-image: linear-gradient(to right, #350258, #32034e,); */
+    margin-top: 10vh;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* background-color: #120254; */
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+.subchild11{
+    height: 7vh;
+    margin-top: 1.6vh;
+    margin-right: 2vw;
+    width: 33vw;
+    background-color: #6067ff;
+}
+
+.hforbacklogo{
+    width: 3vw;
+    margin-top: -17vh;
+    display: flex;
+    justify-content: end;
+    margin-left: 95vw;
+    position: absolute;
+    height: 4vh;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05), 15px 25px 10px rgba(0, 0, 0, 0.1)
+    ,15px 25px 10px rgba(0, 0, 0, 0.05), inset -10px -10px 15px rgba(255, 255, 255, 0.9);
+}
+
+.section1{
+    margin-left: 28vw;
+    position: absolute;
+    z-index: 9999;
+    background: #1f0077;
+    top: 30%;
+    height: 31vh;
+    width: 45vw;
+    font-family: sans-serif;
+    color: white;
+border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+      text-align: center;
+
+  }
+
+.section1 :nth-child(1){
+    border: 0px white;
+}
+.section1 :nth-child(2){
+    border: 0px white;
+}
+.section1 button{
+    width: 171px;
+    height: 7vh;
+    margin-top: 7%;
+    margin-right: 5px;
+    margin-left: 3px;
+    background-color: transparent;
+    border: 2px white  solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.lom{
+    align-items: center;
+    margin-top: 4vh;
+    
+}
+.h2class1{
+    margin-left: 3vw;
+    margin-top: 3vh;
+    font-size: 14px;
+    font-weight: 700;
+    height: 5px;
+}
+.h2class10{
+    margin-left: 1vw;
+    margin-top: 3vh;
+    font-size: 14px;
+    font-weight: 700;
+    height: 5px;
+}
+
+.h2class11{
+    margin-left: 14vw;
+    margin-top: 3vh;
+    font-size: 14px;
+    font-weight: 700;
+    height: 5px;
+}
+.letsbuildspanagain{
+    margin-top: 1.7vh;
+   margin-right: -6vw;
+}
+.newlogosssx{
+    height: 54vh;
+    margin-top: 4vh;
+}
+.ciecledes{
+    margin-top: -37vh;
+    margin-left: 15vw;
+}
+.topheadings{
+    height: 5vh;
+font-size: 19px;
+margin-top: 8vh;
+}

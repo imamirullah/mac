@@ -1,0 +1,109 @@
+body {
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #866A9C, #866A9C, #444678);
+    height: 100vh;
+    text-align: center;
+    color: white;   
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  
+  .txt {
+    font-size: 35px;
+    margin-top: -10%;
+  }
+  .miii img {
+    width: 50vw;
+  }
+    .txt p {
+    margin-left: -32px;
+    margin-top: -2px;
+    font-size: 10px;
+    line-height: 1;
+  }
+  .txt :nth-child(1) {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  .canvas {
+    margin-top: -72%;
+  }
+  
+  .margin {
+    margin-top: 55px;
+  }
+  
+  .miii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .Escape {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 28px;
+  }
+  
+  .Escape:first-of-type {
+    animation: showup 7s infinite;
+  }
+  .Escape .Escape.last{
+    font-size: 15px !important;
+  }
+  .Escape.last {
+    width: 0px;
+    animation: reveal 7s infinite;
+  }
+  
+  .Escape.last span {
+    margin-left: -355px;
+    animation: slidein 7s infinite;
+  }
+  
+  @keyframes showup {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  @keyframes slidein {
+    0% { margin-left: -800px; }
+    20% { margin-left: -800px; }
+    35% { margin-left: 0px; }
+    100% { margin-left: 0px; }
+  }
+  
+  @keyframes reveal {
+    0% { opacity: 0; width: 0px; }
+    20% { opacity: 1; width: 0px; }
+    30% { width: 285px; }
+    80% { opacity: 1; }
+    100% { opacity: 0; width: 285px; }
+  }
+  
+  p {
+    font-size: 10px;
+    
+  }
+  
+  @keyframes bottom-up {
+    0% {
+      transform: translateY(250px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(1);
+      opacity: 1;
+    }
+  }
+  
+  .bottom-up-animation {
+    animation: bottom-up 0.7s ease-out forwards;
+  }
